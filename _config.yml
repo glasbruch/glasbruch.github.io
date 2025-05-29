@@ -38,7 +38,7 @@ plugins_dir: [jekyll-scholar]
 
 # Settings for the publications page.
 scholar:
-  style: apa #ieee-with-url
+  #style: apa #ieee-with-url
   locale: en
   source: _bibliography
   bibliography: publications.bib
