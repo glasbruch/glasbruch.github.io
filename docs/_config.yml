@@ -30,8 +30,20 @@ linkedin_username: marc-hölle
 
 # Build settings
 theme: minima
-#plugins:
-#  - jekyll-feed
+plugins:
+  - jekyll-scholar
+  - jekyll-feed
+
+plugins_dir: [jekyll-scholar]
+
+# Settings for the publications page.
+scholar:
+  style: ieee-with-url
+  locale: en
+  source: _bibliography
+  bibliography: publications.bib
+  sort_by: year
+  order: descending
 
 # Exclude from processing.
 # The following items will not be processed, by default.
