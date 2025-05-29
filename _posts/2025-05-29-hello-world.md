@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Hello World"
 date:   2025-05-28 21:28:58 +0200
-categories: jekyll update
+categories: Fundamentals
 ---
 
 # Testing out latex
